@@ -1,4 +1,5 @@
 # github-viewer
+Some Github api endpoints implementation with vue.js
 
 ## Project setup
 ```

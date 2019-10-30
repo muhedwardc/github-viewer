@@ -1,18 +1,34 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Github Viewer</h1>
+    <SearchBar/>
   </div>
 </template>
 
+<style lang="scss" scoped>
+  .home {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #24292e;
+    flex-direction: column;
+    
+    h1 {
+      margin-bottom: 20px;
+      color: white;
+    }
+  }
+</style>
+
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import SearchBar from '@/components/SearchBar.vue';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    SearchBar
   }
 }
 </script>
