@@ -1,5 +1,6 @@
 # github-viewer
 Some Github api endpoints implementation with vue.js
+this application has been deployed at [https://muhedwardc.github.io/github-viewer/](https://muhedwardc.github.io/github-viewer/)
 
 ## Project setup
 ```
